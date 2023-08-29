@@ -1,30 +1,37 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
+To develop a snake game application.The role of the agent is to promote if the level is cleared by eating a food or depromote if the snake game is lose.
 
 ### Problem Description
-Write your answer here
-
+If the level is cleared by eating a food or depromote if the snake game is lose.
 ### State Space
-Write your answer here
+{L1,L2,L3}--->{0,1,2}
+L1--->level 1
+L2--->level 2
+L3--->level 3
 
 ### Sample State
-Write your answer here
+L1--->0--->level 1
 
 ### Action Space
-Write your answer here
+{W,L}--->{0,1}
+W--> Winning by eating food
+L--->lossing by not eaten food
 
 ### Sample Action
-Write your answer here
+W--->0--->Winning
 
 ### Reward Function
-Write your answer here
+{+1, if we come closure to winning
+{+0, otherwise
 
 ### Graphical Representation
-Write your answer here
+![Screenshot (17)](https://github.com/DHARSHINISENTHILKUMAR/mdp-representation/assets/113699377/82e8dde9-368e-43fa-8170-7a8857b03c4d)
+
 
 ## PYTHON REPRESENTATION:
 Write your code here
