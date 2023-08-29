@@ -35,11 +35,28 @@
 
 
 # PYTHON REPRESENTATION:
-Write your code here
+~~~
+P = {
+    0:{
+        0: [(0,1,1,True)],
+        1: [(1.0,0,1.0,False)]
+    },
+    1:{
+        0: [(0,2,1,True)],
+        1: [(1,0,1,False)]
+    },
+    2:{
+        0: [(0,2,1,True)],
+        1: [(1,1,1,False)]
+    }
+}
 
+~~~
 # OUTPUT:
-Write your Python output here
+![image](https://github.com/DHARSHINISENTHILKUMAR/mdp-representation/assets/113699377/a157c68f-9ced-4f20-8827-d3faffa59c78)
+
+
 
 # RESULT:
-Write your output here
+Thus the given real world problem is successfully represented in a MDP form 
 
